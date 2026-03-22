@@ -1,0 +1,19 @@
+{
+  "name": "fish-audio-cli",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Fish Audio 网页自动化 — 通过 Playwright 复用订阅额度",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "login": "node login.mjs",
+    "tts": "node tts.mjs",
+    "sfx": "node sfx.mjs",
+    "stt": "node stt.mjs",
+    "explore": "node explore-page.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.50.0"
+  }
+}
